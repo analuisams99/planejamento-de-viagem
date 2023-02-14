@@ -5,6 +5,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**Classe Tempo. */
 public class Tempo {
   private LocalDateTime embarque;
   private String origem;

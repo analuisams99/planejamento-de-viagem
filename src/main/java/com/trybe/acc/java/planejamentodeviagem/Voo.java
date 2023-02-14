@@ -1,5 +1,6 @@
 package com.trybe.acc.java.planejamentodeviagem;
 
+/**Classe Voo. */
 public class Voo {
   private int tempoVoo;
 

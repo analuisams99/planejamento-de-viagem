@@ -1,5 +1,6 @@
 package com.trybe.acc.java.planejamentodeviagem;
 
+/**Classe Viagem. */
 public class Viagem {
   private String embarque;
   private String origem;
