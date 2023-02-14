@@ -9,10 +9,8 @@ public class Voo {
    * 
    */
   public int retornarTempoVoo(double distanciaKm) {
-
     Double duracaoDouble = distanciaKm / 700.0;
-
-    /* Implemente sua solução aqui */
+    return duracaoDouble.intValue();
   }
 
   /**
