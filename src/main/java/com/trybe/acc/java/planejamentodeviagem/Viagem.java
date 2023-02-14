@@ -17,6 +17,7 @@ public class Viagem {
     this.origem = origem;
     this.destino = destino;
     this.distanciaKm = distanciaKm;
+    this.voo = new Voo();
   }
 
   /**
