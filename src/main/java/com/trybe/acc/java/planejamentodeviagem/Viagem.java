@@ -42,6 +42,13 @@ public class Viagem {
     Tempo tempoViagem =
         new Tempo(this.embarque, this.origem, this.destino, this.retornarDuracaoVoo());
 
-    /* Implemente sua solução aqui */
+    String infoVoo = voo.retornarInformacaoVoo(embarque, origem, 
+            this.retonarDesembarqueHorarioLocalDestino(), destino);
+    
+    return infoVoo
+        + "Atenção: o desembarque em " + destino 
+        + " será: 24/01/2022 06:30:00 no horário de " + destino
+        + " e 23/01/2022 18:30:00 no horário de " + origem;
+        
   }
 }
