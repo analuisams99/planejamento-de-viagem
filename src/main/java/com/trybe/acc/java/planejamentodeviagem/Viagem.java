@@ -44,11 +44,13 @@ public class Viagem {
 
     String infoVoo = voo.retornarInformacaoVoo(embarque, origem, 
             this.retonarDesembarqueHorarioLocalDestino(), destino);
-    
+    String desembarqueHorarioDestino = tempoViagem.retonarDesembarqueHorarioLocalDestino();
+    String desembarqueHorarioOrigem = tempoViagem.retonarDesembarqueHorarioLocalOrigem();
+
     return infoVoo
         + "Atenção: o desembarque em " + destino 
-        + " será: 24/01/2022 06:30:00 no horário de " + destino
-        + " e 23/01/2022 18:30:00 no horário de " + origem;
+        + " será: " + desembarqueHorarioDestino + " no horário de " + destino
+        + " e " + desembarqueHorarioOrigem + " no horário de " + origem;
         
   }
 }
