@@ -12,8 +12,11 @@ public class Viagem {
    * Método construtor da classe.
    * 
    */
-  public Viagem() {
-    /* Implemente sua solução aqui (você pode ter que alterar o construtor) */
+  public Viagem(String embarque, String origem, String destino, double distanciaKm) {
+    this.embarque = embarque;
+    this.origem = origem;
+    this.destino = destino;
+    this.distanciaKm = distanciaKm;
   }
 
   /**
